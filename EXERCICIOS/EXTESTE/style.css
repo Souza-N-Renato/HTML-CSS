@@ -57,7 +57,7 @@ main{
 }
 
 main img {
-    width: 100%;
+    justify-content: left;
     
 }
 
@@ -71,6 +71,7 @@ div{
 
 img {
     border-radius: 20px;
+    padding: 10px;
 }
 
 
@@ -96,7 +97,7 @@ p {
 }
 
 .primeiroid{
-    color: crimson;
+    color: rgb(146, 5, 5);
 }
 
 footer{
@@ -107,3 +108,4 @@ footer{
     padding: 10px;
     text-align: left;
 }
+
