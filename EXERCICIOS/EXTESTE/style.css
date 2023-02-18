@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root {
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --cor0: #DCE0F2;
+    --cor1: #A3A7BF;
+    --cor2: #313359;
+    --cor3: #201F40;
+    --cor4: #151026; 
+    --cor5: #131d1d;
+}
+
+nav {
+    background-color: black;
+    color: gold;    
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    text-decoration: gold;
+    border-radius: 5px;
+    transition-duration: 0.5;
+   
+}
+
+
+header{
+    text-align: center;
+    text-shadow: 2px 2px 0px color black;
+    box-shadow: 12px 12px 10px color rgba(131, 10, 10, 0.418);
+}
+
+body{
+    
+    background-color: #131d1d ;
+    /* background-image: linear-gradient(45deg, var(--cor4), var(--cor4), var(--cor3)) ;*/
+    
+}
+
+main{
+    
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    
+    margin-bottom: 100%;
+    box-shadow: 0px 0px 10px color rgba(0, 0, 0, 0.418);
+
+}
+
+main img {
+    width: 100%;
+    
+}
+
+
+div{
+    
+    min-width: 320;
+    max-width: 800;
+    margin: auto;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+
+h1{
+    color: gold;padding: 30px;
+    
+}
+
+h2{
+    color: aliceblue;
+    padding: 10px;
+}
+
+h3{
+    color: aliceblue;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.primeiroid{
+    color: crimson;
+}
+
+footer{
+    background-color: black;
+    color: gold;
+    height: 50px;
+    
+    padding: 10px;
+    text-align: left;
+}
